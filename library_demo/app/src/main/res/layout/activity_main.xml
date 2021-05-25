@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light"
+
+   >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:paddingTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tubiao"></ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="福大至诚图书馆"
+    android:textColor="@android:color/tertiary_text_dark"
+    android:textSize="30dp"
+    ></TextView>
+</LinearLayout>
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/et_data_uname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名："
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textColorHint="@android:color/tertiary_text_dark"/>
+
+    <EditText
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:id="@+id/et_data_upass"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="请输入密码："
+        android:inputType="number"
+        android:textColorHint="@android:color/tertiary_text_dark"/>
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="loginGET"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:text="登录（GET）"
+
+        />
+
+
+</LinearLayout>

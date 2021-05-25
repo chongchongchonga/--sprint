@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="160dp"
+            android:text="             昵称      张三"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textScaleX="2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:text="             性别      男"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textScaleX="2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="             院系      经济管理系"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textScaleX="2"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:text="             班级     2018计科1班"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textScaleX="2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:text="             生日     1999年7月9日"
+            android:textColor="@android:color/tertiary_text_dark"
+            android:textScaleX="2"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

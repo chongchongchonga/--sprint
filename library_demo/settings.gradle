@@ -1,0 +1,2 @@
+rootProject.name='library_demo'
+include ':app'
